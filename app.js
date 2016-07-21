@@ -22,13 +22,14 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.get('/', function(req, res) {
-  res.send('<html><img src="images/broken.jpg" alt="" height="50%" width="50%"><br>Working on it! Be back up soon! Drone on!</html>');
-});
+// app.get('/', function(req, res) {
+//   res.send('<html><img src="images/broken.jpg" alt="" height="50%" width="50%"><br>Working on it! Be back up soon! Drone on!</html>');
+// });
 
 
-/*
+
 app.use('/', routes);
+/*
 app.use('/users', users);
 
 */
